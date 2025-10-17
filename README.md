@@ -1,24 +1,36 @@
 # Theme Changer
 
-A simple theme changer that toggles between light and dark modes.
+A React theme changer that toggles between light and dark modes.
 
 ## Features
-- Click button to switch between light and dark themes
-- Easy to use and customize
-
-## How to Use
-1. Open `index.html` in your browser
-2. Click the "Change Theme" button to toggle between themes
-
-## Files
-- `index.html` - Main HTML file
-- `style.css` - Styling (if you have a separate file)
-- `script.js` - JavaScript logic (if you have a separate file)
+- Toggle between light and dark themes
+- Built with React and react-router-dom
+- Simple and easy to customize
 
 ## Installation
-No installation needed! Just open the HTML file in your browser.
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open your browser and go to `http://localhost:3000`
+
+## Usage
+Click the "Change Theme" button to switch between light and dark modes.
+
+## Technologies Used
+- React
+- react-router-dom
+- JavaScript
 
 ## Future Improvements
-- Save theme preference
+- Save theme preference to localStorage
 - Add more theme options
-- Use CSS variables for easier customization
+- Add keyboard shortcuts
